@@ -5,6 +5,25 @@ This repository contains the source manifest for an unofficial, community-mainta
 
 This project is independent and is not affiliated with or endorsed by LineageOS or Google. The manifest references upstream projects, including LineageOS and AOSP repositories; their names, copyrights, and license terms remain with their respective owners.
 
+Source repositories
+-------------------
+
+The manifest combines upstream projects; this organization does not own or maintain every source repository. The Pixel 7 device repositories currently resolve to:
+
+| Component | Source |
+| --- | --- |
+| Android / LineageOS base manifest | [LineageOS/android, lineage-24.0](https://github.com/LineageOS/android/tree/lineage-24.0) |
+| Pixel 7 device tree | [LineageOS/android_device_google_panther](https://github.com/LineageOS/android_device_google_panther/tree/lineage-24.0) |
+| Shared Pixel device tree | [LineageOS/android_device_google_pantah](https://github.com/LineageOS/android_device_google_pantah/tree/lineage-24.0) |
+| Tensor G2 common device tree | [LineageOS/android_device_google_gs201](https://github.com/LineageOS/android_device_google_gs201/tree/lineage-24.0) |
+| Pixel device kernels | [LineageOS/android_device_google_pantah-kernels](https://github.com/LineageOS/android_device_google_pantah-kernels) |
+| Proprietary Pixel 7 vendor files | [TheMuppets/proprietary_vendor_google_panther](https://github.com/TheMuppets/proprietary_vendor_google_panther/tree/lineage-24.0) |
+
+This project's manifest changes and release artifacts are maintained separately:
+
+- [Panther ROM manifests](https://github.com/lineage-panther/android_manifests)
+- [Panther ROM releases, issues, and contribution guidance](https://github.com/lineage-panther/panther-release-24.0)
+
 Getting started
 ---------------
 
