@@ -1109,5 +1109,6 @@
   <project path="device/google/panther" name="LineageOS/android_device_google_panther" revision="lineage-24.0" />
   <project path="device/google/pantah" name="LineageOS/android_device_google_pantah" revision="lineage-24.0" />
   <project path="device/google/gs201" name="LineageOS/android_device_google_gs201" revision="lineage-24.0" />
+  <extend-project path="device/google/pantah" name="lineage-panther/android_device_google_pantah" remote="private" revision="lineage-24.0" />
 
 </manifest>
