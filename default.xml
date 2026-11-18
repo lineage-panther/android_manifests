@@ -1111,7 +1111,6 @@
   <project path="vendor/google/panther" name="TheMuppets/proprietary_vendor_google_panther" revision="lineage-24.0" />
   <project path="device/google/panther" name="LineageOS/android_device_google_panther" revision="lineage-24.0" />
   <project path="device/google/gs201" name="LineageOS/android_device_google_gs201" revision="lineage-24.0" />
-  <remove-project name="LineageOS/android_device_google_pantah" />
   <project path="device/google/pantah" name="lineage-panther/android_device_google_pantah" remote="panther" revision="lineage-24.0" />
 
 </manifest>
